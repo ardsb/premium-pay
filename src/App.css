@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navBar{
+ margin-left: 100px !important;
+ width: 340px !important;
+ color: black !important;
+}
+.body{
+  
+}
+.topBar{
+  padding-top: 50px;
+  padding: 30px;
+}
+.logo{
+padding-left: 80px;
+  height: 50px !important;
+
+}
+
+.logoHeroImg{
+  height: 480px !important;
+  width: 500px !important;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.section2Img{
+  height: 480px !important;
+  width: 500px !important;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.heroSection{
+  height: 500px;
+  background-color: #263238;
+}
+
+.Section2{
+  height: 500px;
+}
+
+.heroSectionHeading{
+  margin: 0px;
+  font-size: 56px;
+  width: 506.58px;
+}
+.Section2Heading{
+  margin: 0px;
+  font-size: 56px;
+  width: 506.58px;
+  color: black;
+}
+
+.Section2Body{
+  color: black;
+}
+
+.heroSectionRight{
+  padding: 30px;
+  left: 80px;
+  top: 50px;
+  color: white;
+  font-family: poppins;
+}
+
+.heroSectionRight2{
+  padding: 30px;
+  left: 80px;
+  top: 20px;
+  color: white;
+  font-family: poppins;
+}
+
+.heroSectionLeft{
+    left: 150px;
+  width: 50px !important;
+  top: 20px;
+}
+.featureColumn1{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.featureLayout1{
+  height: 235px !important;
+  width: 276px !important;
+  border-radius: 30px;
+  margin-left: 150px;
+  margin-top: 50px;
+  box-shadow: 0 0 25px #9130F4;
+
+}
+.featureLayout2{
+  height: 235px !important;
+  width: 276px !important;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  box-shadow: 0 0 25px #9130F4;
+
+}
+
+
+.featureImg1{
+
+  padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
