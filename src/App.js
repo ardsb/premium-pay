@@ -10,7 +10,7 @@ import { Menu, img, Col, Row } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import Img from "./Assets/Asset 3.png";
-import heroImg from "./Assets/Group 1606.png";
+import heroImg from "./Assets/Group 1609.png";
 import featureImg1 from "./Assets/Group 1599.png";
 import featureImg2 from "./Assets/Group 1617.png";
 import featureImg3 from "./Assets/Group 1618.png";
@@ -18,6 +18,10 @@ import featureImg4 from "./Assets/Group 1619.png";
 import img1 from "./Assets/image_1-removebg-preview.png";
 import pay from "./Assets/pay.png";
 import nftremovebgpreview from "./Assets/nft-removebg-preview.png";
+import Frame3 from "./Assets/Frame 3.png";
+import Frame1 from "./Assets/Frame 1.png";
+import Frame2 from "./Assets/Group 1623.png";
+import Frame4 from "./Assets/Group 1624.png";
 
 const items = [
   {
@@ -103,7 +107,7 @@ function App() {
                 }}
                 onClick={() => enterLoading(1)}
               >
-                Submit
+                Play Store
               </Dropdown.Button>
             </Space>
           </Col>
@@ -181,7 +185,7 @@ function App() {
           </p>
           <p className="Section2Body">
           Premium pay allows you to send, withdraw and swap funds in any currency or cryptocurrency of your choice.
-You also have ac cess to trading bot for financial trading leads and advices.
+You also have access to trading bot for financial trading leads and advices.
           </p>
 
           <Space direction="vertical">
@@ -235,13 +239,20 @@ You also have access to trading bot for financial trading leads and advices.
           <img className="section2Img" src={nftremovebgpreview} />
         </Col>
       </Row>
-      <Row className="heroSection">
-          <Col span={12} className="heroSectionRight">
-       
+      <Row className="footerSection">
+          <Col span={8} className="footerSectionRight">
+          <img className="footerLogo" src={Frame3} />
           </Col>
-          <Col span={12}>
+          <Col span={8}>
             {" "}
+            <img className="footerHeader" src={Frame2} />
+            <img className="footertxt" src={Frame1} />
             
+          </Col>
+          <Col span={8}>
+            {" "}
+            <img className="followMoreTxt" src={Frame4} />
+          
           </Col>
         </Row>
     </>

@@ -73,6 +73,11 @@ padding-left: 80px;
   background-color: #263238;
 }
 
+.footerSection{
+  height: 380px;
+  background-color: #263238;
+}
+
 .Section2{
   height: 500px;
 }
@@ -139,10 +144,28 @@ padding-left: 80px;
 
 }
 
-
+.footerLogo{
+  height: 300px !important;
+  width: 300px !important;
+  padding-top: 50px;
+  padding-left: 80px;
+}
 .featureImg1{
 
   padding: 50px;
+}
+
+.footerHeader{
+  padding-top: 80px;
+}
+
+.footertxt{
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.followMoreTxt{
+  padding-top: 20git0px;
 }
 
 @media only screen and (max-width: 768px) {
